@@ -5,7 +5,9 @@ void sprite_draw(
   u8_t * rgba,
   u16_t rgba_width,
   u16_t rgba_height
-);
+) {
+  // TODO.
+}
 
 void sprite_animation_draw(
   const sprite_animation_t sprite_animation,
@@ -15,4 +17,6 @@ void sprite_animation_draw(
   u8_t * rgba,
   u16_t rgba_width,
   u16_t rgba_height
-);
+) {
+  // TODO.
+}
