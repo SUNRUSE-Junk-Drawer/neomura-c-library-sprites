@@ -1,7 +1,7 @@
 # neomura > c library sprites
 
-single-header gnu89 c library for animating and drawing sprites within games for
-neomura virtual retro games console.
+gnu89 c library for animating and drawing sprites within games for neomura
+virtual retro games console.
 
 [mit licensed](./license.md).
 
@@ -9,7 +9,13 @@ neomura virtual retro games console.
 
 add this repository as a git submodule, then include
 [sprites.h](./sprites.h) from any files where the types or functions are
-required.
+required, and add a stub c file to bring its function implementations into the
+game:
+
+```c
+#include "path-to-neomura.h"
+#include "path-to-sprites.c"
+```
 
 note that the neomura [c library](https://github.com/neomura/c-library) must be
 included before including [sprites.h](./sprites.h).
