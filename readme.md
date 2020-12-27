@@ -28,15 +28,15 @@ included before including [sprites.h](./sprites.h).
 
 struct representing a sprite, with multiple frames, in struct-of-arrays format.
 
-| field | meaning |
-| ----- | ------- |
-| width | the widths of the sprite's frames. |
-| height | the heights of the sprite's frames. |
+| field    | meaning                                                          |
+| -------- | ---------------------------------------------------------------- |
+| width    | the widths of the sprite's frames.                               |
+| height   | the heights of the sprite's frames.                              |
 | x_offset | the relative locations of the left edges of the sprite's frames. |
-| y_offset | the relative locations of the top edges of the sprite's frames. |
-| duration | the number of refresh rate frames to show the sprite's frames. |
-| rgba     | the pixel data of the sprite's frames (see below). |
-| count    | the number of frames in the sprite.                      |
+| y_offset | the relative locations of the top edges of the sprite's frames.  |
+| duration | the number of refresh rate frames to show the sprite's frames.   |
+| rgba     | the pixel data of the sprite's frames (see below).               |
+| count    | the number of frames in the sprite.                              |
 
 ##### rgba formatting
 
