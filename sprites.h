@@ -6,7 +6,7 @@ typedef struct sprite_t
   const u16_t *height;
   const s16_t *x_offset;
   const s16_t *y_offset;
-  const u8_t *duration;
+  const u16_t *duration;
   const u8_t **rgba;
   const u16_t count;
 } sprite_t;
