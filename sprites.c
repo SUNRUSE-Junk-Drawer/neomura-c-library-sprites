@@ -1,5 +1,6 @@
 void sprite_draw(
     const sprite_t sprite,
+    s32_t frame,
     s16_t x,
     s16_t y,
     u8_t *rgba,

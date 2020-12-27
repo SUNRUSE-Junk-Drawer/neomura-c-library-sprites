@@ -72,6 +72,7 @@ note that some animations may specify the same index twice.
 given:
 
 - a sprite.
+- the index of the frame to draw.
 - the location of the origin relative to the left border of the video buffer.
 - the location of the origin relative to the top border of the video buffer.
 - the video buffer to render to.
