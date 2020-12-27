@@ -14,6 +14,7 @@ typedef struct sprite_animation_t {
   const sprite_t * sprite;
   const u16_t * indices;
   const u16_t count;
+  const u16_t duration;
 } sprite_animation_t;
 
 void sprite_draw(
